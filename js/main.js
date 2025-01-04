@@ -49,7 +49,7 @@ function randomsButtonsClick() {
         ['Джейсон Стетхэм'],
 
     ];
-
+    // Cоздаем рандом для вывода цитат
     let randomsAlls = Math.floor(Math.random() * citates.length)
 
     document.getElementById('citat-randoms-text').innerHTML = citates[randomsAlls]
